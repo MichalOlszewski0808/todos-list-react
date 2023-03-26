@@ -1,0 +1,32 @@
+.section {
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.section__body {
+    padding: 20px;
+}
+
+.section__header {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.section__title {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+@media (max-width:767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
