@@ -1,6 +1,35 @@
-# Task list
+# To-do list
 
-Description 
+## Demo
+https://michalolszewski0808.github.io/todos-list-react/
+
+![Website preview](https://i.ibb.co/R33hDXB/preview.png)
+
+## Description
+A website where you can make a to-do list. On the page you can mark completed tasks and delete them. All described features will be added soon, stay tuned!
+
+## Instruction
+To add a task, enter its content in the empty field and press the blue button with the inscription "Dodaj zadanie".
+
+To mark a completed task, press the green square button on the left side of the task.
+
+To remove a task from the list, press the red square button on the right side of the task.
+
+To mark all completed tasks, press "Ukończ wszystkie".
+
+To hide all marked tasks, press "Ukryj ukończone".
+
+To show all hidden tasks, press "Pokaż ukończone".
+
+## Included technologies and conventions:
+- JavaScript
+- CSS
+- HTML
+- Grid
+- NormalizeCSS
+- CamelCase naming convention
+- BEM naming convention
+- React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
