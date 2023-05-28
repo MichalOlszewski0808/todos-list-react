@@ -12,7 +12,7 @@ onClick={() => toggleTaskDone(task.id)}
                     {task.done ? "✔" : ""}
                 </button>
                 <span className={`tasks__content${task.done ? " tasks__content--done " :
-                    ""}`}>{task.content}</span>
+                    ""}`}>{task.id} - {task.content}</span>
                 <button className="tasks__button 
 tasks__button--remove"
 onClick={() => removeTask(task.id)}
